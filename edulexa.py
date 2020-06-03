@@ -115,12 +115,12 @@ while(flag == True):
               rec_email="tanu10tanu1999@gmail.com"
               password="edulexa123"
               subject="doubts"
-              message="sir, can you please clear my doubts?  /n "+ user_response
+              message="sir, can you please clear my doubts ?  /n "+ user_response
               server=smtplib.SMTP('smtp.gmail.com',587)
               server.starttls()
               server.login(sender_email, password)
               server.sendmail(sender_email, rec_email, message,subject)
-              tts("Your Mail is send and ask another queries . If you want to exit, type Bye!")
+              tts("Your Mail is send to faculty and ask another queries . If you want to exit, type Bye!")
               print("Edulexa:Your Mail is send and ask another queries . If you want to exit, type Bye!")
             else:
               tts("I will answer your queries . If you want to exit, type Bye!")
