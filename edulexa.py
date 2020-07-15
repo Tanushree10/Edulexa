@@ -111,9 +111,9 @@ while(flag == True):
             print("USER :"+k)
             if k.lower()=="yes":
               import smtplib
-              sender_email="useredulexa@gmail.com"
+              sender_email="emailid"
               rec_email="tanu10tanu1999@gmail.com"
-              password="edulexa123"
+              password="****"
               subject="doubts"
               message="sir, can you please clear my doubts ?  /n "+ user_response
               server=smtplib.SMTP('smtp.gmail.com',587)
