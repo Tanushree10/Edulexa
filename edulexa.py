@@ -111,8 +111,8 @@ while(flag == True):
             print("USER :"+k)
             if k.lower()=="yes":
               import smtplib
-              sender_email="emailid"
-              rec_email="tanu10tanu1999@gmail.com"
+              sender_email="sender_mail_id"
+              rec_email="reciever_mail_id"
               password="****"
               subject="doubts"
               message="sir, can you please clear my doubts ?  /n "+ user_response
